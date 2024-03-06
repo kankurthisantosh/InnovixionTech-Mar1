@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div id="disp">COUNT DOWN TIMER</div>
+        <div id="text">Set The Timer</div>
+
+        
+        <form action="#">
+           <!-- Input field for custom date -->
+            <label for="customDate">Set Custom Date & Time:</label>
+            <input type="datetime-local" id="customDate" placeholder="MM/DD/YYYY" autocomplete="off">
+            <br>
+            <button onclick="setCustomDate()">Set</button>
+        </form>    
+        <div class="btn">
+            <!-- Buttons for control -->
+            <button onclick="startTimer()">Start</button>
+            <button onclick="stopTimer()">Stop/Resume</button>
+            <button onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+
+    <script src="app.js">
+    </script>
+</body>
+</html>
