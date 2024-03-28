@@ -19,6 +19,7 @@
             align-items: center;
             background-color: #7c4dff;
         }
+
         .container{
             width: 40%;
             min-width: 350px;
